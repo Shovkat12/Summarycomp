@@ -1,0 +1,182 @@
+@import url(./fonts.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 284px 352px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2FF;
+}
+.main-card{
+    display: flex;
+    background-color: white;
+    border-radius: 32px;
+}
+.first-card{
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+.first-card_title{
+    font-family: "HankenBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:#CAC9FF;
+    margin-top: 38px;
+}
+.oval{
+    margin-top: 35px;
+    width: 200px;
+    height: 200px;
+    background: url("../img/Oval.png");
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oval-title{
+    font-family: "HankenBold";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    color: white;
+}
+.oval-text{
+    font-family: "HankenBold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #CAC9FF;
+    opacity: 0.5168;
+}
+.title-under{
+    margin-top: 28px;
+    font-family: "HankenBold";
+    font-size: 32px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-under{
+    margin-top: 14px;
+    font-family: "HankenRegular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #CAC9FF;
+    width: 260px;
+    height: 69px;
+    text-align: center;
+}
+.second-card{
+    background-color: white;
+    border-radius: 32px;
+    width: 368px;
+    height: 512px;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+    
+    
+
+}
+.second-card_title{
+    margin-top: 38px;
+    margin-left: 40px;
+    font-family: "HankenBold";
+    font-size: 24px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal;
+}
+.card-mini{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-left: 40px;
+    margin-bottom: 41px;
+}
+.mini-card{
+    width: 288px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+.mini-card_text{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    font-family: "HankenRegular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mini-card_descrip{
+    color: #F55;
+}
+.mini-card_descrip1{
+    color: #FFB21E;
+}
+.mini-card_descrip2{
+    color: #00BB8F;
+}
+.mini-card_descrip3{
+    color: #1125D6;
+}
+a{
+    text-decoration: none;
+    width: 288px;
+    height: 56px;
+    border-radius: 128px;
+    background-color: #303B59;
+    padding: 17px 106px 16px 107px;
+    color: white;
+    font-family: "HankenBold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 40px;
+    transition: .3s;
+}
+a:active{
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+.digit{
+    font-family: "HankenBold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #303B59;
+}
+.span{
+    font-family: "HankenBold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+    margin-left: 8px;
+}
